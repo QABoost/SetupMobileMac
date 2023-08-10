@@ -6,9 +6,9 @@ Node.js необходим для работы с Appium. Вы можете ус
 
 ### С помощью Homebrew:
 
-\`\`\`bash
+```bash
 brew install node
-\`\`\`
+```
 
 ### Или с официального сайта:
 
@@ -18,53 +18,53 @@ brew install node
 
 Если у вас еще нет Homebrew, выполните следующую команду в терминале:
 
-\`\`\`bash
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-\`\`\`
+```
 
 ## 3. Установка Appium (версия @next)
 
 Установите Appium с помощью npm (пакетный менеджер Node.js):
 
-\`\`\`bash
+```bash
 npm install -g appium@next
-\`\`\`
+```
 
 ## 4. Установка Appium Doctor
 
 Appium Doctor поможет вам проверить, все ли зависимости установлены правильно:
 
-\`\`\`bash
+```bash
 npm install -g appium-doctor
-\`\`\`
+```
 
 Запустите его, чтобы убедиться, что все в порядке:
 
-\`\`\`bash
+```bash
 appium-doctor
-\`\`\`
+```
 
 ## 5. Установка драйверов
 
 ### XCUITest:
 
-\`\`\`bash
+```bash
 appium driver install xcuitest
-\`\`\`
+```
 
 ### UIAutomator2:
 
-\`\`\`bash
+```bash
 appium driver install uiautomator2
-\`\`\`
+```
 
 ## 6. Запуск Appium
 
 Просто запустите Appium с помощью следующей команды:
 
-\`\`\`bash
+```bash
 appium
-\`\`\`
+```
 
 ## 7. Установка и запуск Appium Inspector
 
